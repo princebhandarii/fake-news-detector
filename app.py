@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 
 # Load model & vectorizer
-model = joblib.load("fake_news_model.pkl")
-vectorizer = joblib.load("vectorizer.pkl")
+model = joblib.load("fake_news_pkg_FINAL.pkl")
+vectorizer = joblib.load("vectorizer_pkg_FINAL.pkl")
 
 st.set_page_config(page_title="Fake News Detector", layout="centered")
 
